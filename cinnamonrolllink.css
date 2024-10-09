@@ -1,0 +1,230 @@
+            html {
+                background: #e5d9c5;
+                box-sizing: border-box;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            
+            .art-div {
+                line-height: 1.5;
+                background-color: #F5E3CB;
+                padding: 20px;
+            }
+            
+            .subtle {
+                color: #000000;
+            }
+            
+            body {
+                display: block;
+                margin: 30px;
+            }
+            
+            .frontcover-section {
+                padding: 0 50px;
+                margin-bottom: 50px;
+                background-color: burlywood;
+            }
+            
+            h1 {
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 35px;
+                margin-bottom: 30px;
+                background-color: burlywood;
+                text-align: center;
+            }
+            
+            .card-container {
+                margin: auto 0;
+                position: relative;
+            }
+            
+            .card {
+                padding: 30px;
+                position: relative;
+            }
+            
+            .card-body {
+                display: contents;
+                float: left;
+                width: 310px;
+            }
+            
+            .card-number {
+                margin-top: 15px;
+            }
+            
+            .card-circle {
+                border: 1px solid #000000;
+                border-radius: 50%;
+                display: inline-block;
+                line-height: 22px;
+                font-size: 12px;
+                height: 25px;
+                text-align: center;
+                width: 25px;
+            }
+            
+            .card-author {
+                display: block;
+                font-size: 12px;
+                letter-spacing: .5px;
+                margin: 15px 0 0;
+                text-transform: uppercase;
+            }
+            
+            .card-title {
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 60px;
+                font-weight: 300;
+                line-height: 60px;
+                margin: 10px 0;
+            }
+            
+            .card-description {
+                display: inline-block;
+                font-weight: 300;
+                line-height: 22px;
+                margin: 10px 0;
+            }
+            
+            .card-tag {
+                float: right;
+                margin: 5px 0 0;
+            }
+            
+            .card-media {
+                width: 320px;
+                margin: auto auto;
+                display: block;
+                padding: 10px;
+                border: 10px dotted brown;
+            }
+            /* SECTION 2: Ingredient */
+            
+            .ingredient-section {
+                padding: 0 50px;
+                margin-bottom: 100px;
+                display: inline;
+            }
+            
+            .ingredient-section h2 {
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 35px;
+                margin-bottom: 30px;
+            }
+            
+            .ingredient-section .group {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            
+            .ingredient-section .group .ingredient-details {
+                text-align: center;
+                flex: 2;
+                padding: 20px;
+            }
+            
+            .ingredient-section .group .ingredient-details img {
+                width: 350px;
+                object-fit: cover;
+                margin-bottom: 10px;
+                padding: 10px;
+                border: 10px dotted brown;
+            }
+            
+            .ingredient-section .group .text {
+                flex: 8;
+            }
+            /* SECTION 3: Step */
+            
+            .step-section {
+                padding: 0 50px;
+                margin-bottom: 100px;
+                display: inline;
+            }
+            
+            h2 {
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 35px;
+                margin-bottom: 30px;
+                background-color: burlywood;
+                text-align: center;
+            }
+            
+            .step-section .groupstep {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            
+            .step-section .groupstep .step-details {
+                text-align: center;
+                flex: 2;
+            }
+            
+            .step-details img {
+                width: 180px;
+                object-fit: cover;
+                margin-bottom: 10px;
+                padding: 10px;
+                border: 10px dotted brown;
+            }
+            
+            .textstep {
+                text-align: left;
+                background-color: #F5E3CB;
+                padding: 20px;
+            }
+            
+            .groupstep .step-details .textstep {
+                flex: 2;
+                display: flex;
+                justify-content: right;
+            }
+            /* SECTION 4: Gallery */
+            
+            .gallery-section {
+                padding: 0 50px;
+                margin-bottom: 100px;
+                display: inline;
+            }
+            
+            h3 {
+                text-align: center;
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 35px;
+                margin-bottom: 30px;
+                background-color: burlywood;
+                text-align: center;
+            }
+            
+            .galleryimg {
+                text-align: center;
+                border-left: 60px;
+                margin-right: 200px;
+            }
+            
+            .gallery-card {
+                align-content: center;
+                border: 2px;
+                width: 200px;
+                height: 300px;
+                display: inline-block;
+            }
+            
+            #one {
+                width: 450px;
+                height: 300px;
+            }
+            /* SECTION 5: Reference */
+            
+            .reference-section {
+                text-align: center;
+                font-size: 30px;
+                font-weight: bold;
+                color: darksalmon;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }

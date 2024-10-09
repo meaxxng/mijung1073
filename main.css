@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-gap: 20px;
+    color: #6d4c41;
+}
+
+.grid-container>div {
+    font-size: 30px;
+    text-align: center;
+    background-color: bisque;
+}
+
+
+/*section 1 : Header */
+
+#header {
+    grid-column: 1 / span 3;
+    background-color: #a3e9a4;
+    padding: 20px;
+    display: inline;
+}
+
+.header-title {
+    font-family: "DynaPuff";
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 20px;
+    font-family: "Josefin Slab";
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+/*section 2 : Ingredients */
+
+#main1 {
+    grid-column: 1 / span 1;
+    background-color: #ffe082;
+}
+
+.main1-title {
+    font-family: "DynaPuff";
+    font-size: 45px;
+}
+
+#one {
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.ingredients-details-header {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    font-family: "Josefin Slab";
+}
+
+.ingredients-details {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 5px;
+    font-family: "Josefin Slab";
+    font-weight: bold;
+}
+
+
+/*section 3 : Instructions */
+
+#main2 {
+    grid-column: 2 / span 1;
+    background-color: #ffab91;
+}
+
+.main2-title {
+    font-family: "DynaPuff";
+    font-size: 45px;
+}
+
+.instructions-details {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 5px;
+    font-family: "Josefin Slab";
+    font-weight: bold;
+}
+
+.instructionsimg {
+    display: inline;
+}
+
+#two {
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+#three {
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+#four {
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+#five {
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+#six {
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+#seven {
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#eigth {
+    width: 206px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+
+/*section 4 : Gallery */
+
+#right {
+    grid-column: 3 / span 1;
+    background-color: #f8bbd0;
+}
+
+.right-title {
+    font-family: "DynaPuff";
+    font-size: 45px;
+}
+
+.gallery-card {
+    display: inline-block;
+    width: 250px;
+    border-radius: 10%;
+}
+
+#nine {
+    margin-bottom: 30px
+}
+
+
+/*section 5 : Source */
+
+#footer {
+    grid-column: 1 / span 3;
+}
+
+.footer-title {
+    font-family: "DynaPuff";
+    font-size: 45px;
+    margin: 20px;
+}
+
+#link {
+    font-family: "Josefin Slab";
+    display: ruby-text;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 40% auto;
+        grid-gap: 10px;
+    }
+    #header {
+        grid-column: 1 / span 2;
+    }
+    #main1 {
+        grid-column: 1 / span 1;
+    }
+    #main2 {
+        grid-column: 2 / span 1;
+    }
+    #right {
+        grid-column: 1 / span 1;
+    }
+    #footer {
+        grid-column: 2 / span 1;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header {
+        grid-column: 1 / span 1;
+    }
+    #main1 {
+        grid-column: 1 / span 1;
+    }
+    #main2 {
+        grid-column: 1 / span 1;
+    }
+    #right {
+        grid-column: 1 / span 1;
+    }
+    #footer {
+        grid-column: 1 / span 1;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ทำให้หน้าจอแสดงผลถูกต้องบนโทรศัพท์ -->
+
+    <title>Register</title>
+
+    <link rel="stylesheet" type="text/css" href="register.css"> 
+    <script src="register.js"></script>
+</head>
+<body>
+    <!-- ฟอร์มสำหรับการลงทะเบียน -->
+    <form name="myRegister" id="myRegister" action="login.html" onsubmit="return validateForm()"> <!-- กำหนดฟอร์ม โดยเมื่อกดปุ่ม submit จะเรียกฟังก์ชัน validateForm() -->
+        <fieldset>
+            <legend>Register</legend> <!-- ชื่อฟอร์ม Register จะแสดงบนกรอบฟอร์ม -->
+            <span>* Required fields</span> <br> <!-- เตือนว่าช่องที่มี * เป็นช่องบังคับต้องกรอก -->
+            <span id="errormsg"></span> <!-- ใช้แสดงข้อความแจ้งเตือนถ้าผิดพลาด -->
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstname">First name*: </label> 
+                    <input type="text" name="firstname" required> <!-- บังคับต้องกรอก -->
+                </div>
+
+                <div class="form-group">
+                    <label for="lastname">Last name*: </label> 
+                    <input type="text" name="lastname" required> 
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+					<label for="gender">Gender*: </label> 
+					<div class="radio-group"> 
+						<input type="radio" name="gender" value="male"> Male 
+						<input type="radio" name="gender" value="female"> Female 
+						<input type="radio" name="gender" value="other"> Other 
+					</div>
+				</div>
+
+                <div class="form-group">
+                    <label for="bday">Birthday*: </label> 
+                    <input type="date" name="bday" required> <!-- ช่องเลือกวันที่แบบปฏิทิน -->
+                </div>
+            </div>
+
+        
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email address*: </label> 
+                    <input type="email" name="email" required> <!-- บังคับต้องกรอกและต้องเป็นรูปแบบอีเมล @ -->
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Username*: </label> 
+                    <input type="text" name="username" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="password">Password*: </label> 
+                    <input type="password" name="password" required> 
+                </div>
+
+                <div class="form-group">
+                    <label for="retype_password">Retype Password*: </label>
+                    <input type="password" name="retype_password" required>
+                </div>
+            </div>
+
+            <!-- ปุ่มสำหรับส่งฟอร์มและล้างข้อมูล -->
+            <div class="form-buttons">
+                <input type="submit" value="Register"> 
+                <input type="reset" value="Reset"> 
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

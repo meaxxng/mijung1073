@@ -1,0 +1,40 @@
+{
+	"top1":{
+		"brandname": "louis Vuitton Clothing",
+		"price":"5000 Baht",
+		"pic":"top1.jpg"},
+	"top2":{
+		"brandname": "Gucci Clothing",
+		"price":"3000 Baht",
+		"pic":"top2.jpg"},
+
+	"top3":{
+		"brandname": "Dior Clothing",
+		"price":"7000 Baht",
+		"pic":"top3.jpg"},
+	"top4":{
+		"brandname": "Hermes Clothing",
+		"price":"10000 Baht",
+		"pic":"top4.jpg"},
+	"top5":{
+		"brandname": "Prada Clothing",
+		"price":"13000 Baht",
+		"pic":"top5.jpg"},
+	"top6":{
+		"brandname": "Chanel Clothing",
+		"price":"15000 Baht",
+		"pic":"top6.jpg"},
+	"top7":{
+		"brandname": "Givenchy Clothing",
+		"price":"20000 Baht",
+		"pic":"top7.jpg"},
+	"top8":{
+		"brandname": "Balenciaga Clothing",
+		"price":"23000 Baht",
+		"pic":"top8.jpg"},
+	"top9":{
+		"brandname": "Balmain Clothing",
+		"price":"22000 Baht",
+		"pic":"top9.jpg"}
+		
+}
